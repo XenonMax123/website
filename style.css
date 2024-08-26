@@ -1,0 +1,56 @@
+:root{
+    --text:#ffffff;
+    --background:#333333;
+    --primary:#bcc2ad;
+    --secondary:#495c62;
+    --accent:#888aa6;
+    --shadow: #0000003f;
+}
+
+@font-face
+{
+    font-family: Nunito-VariableFont_wght;
+    src: url(/resources/fonts/Nunito-VariableFont_wght.ttf);
+}
+  
+*{
+    font-family: Nunito-VariableFont_wght;
+}
+
+html
+{
+    background-color: var(--background);
+    font-weight:700;
+    font-size: larger;
+    color: var(--text);
+}
+
+body{
+    margin: 0;
+}
+
+.nav_banner
+{
+    height: 5vh;
+    width: 100%;
+    background-color: var(--secondary);
+}
+
+.pannel
+{
+    width: auto;
+    height: 400px;
+    background-color: var(--primary);
+    border-radius: 20px;
+    box-shadow: 0 0 100 100 solid var(--shadow);
+    margin: 40px 40px;
+    box-shadow: 0px 6px 7px 0px var(--shadow);
+    
+}
+
+.dashboard
+{
+    width: 100%;
+    border-width: 5px;
+    
+}
