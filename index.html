@@ -1,7 +1,527 @@
 <!DOCTYPE html>
+<html lang="de">
 <head>
-    <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Treffsicher – Euer persönliches Paar-Matching</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+
+<!-- ===== LANDING PAGE (unauthenticated) ===== -->
+<div id="landing">
+
+  <!-- Landing Navigation -->
+  <nav class="nav-landing">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">
+        <span class="logo-heart">♥</span>
+        Treffsicher
+      </a>
+      <div class="nav-actions">
+        <button class="btn btn-ghost" id="btn-open-login">Anmelden</button>
+        <button class="btn btn-primary" id="btn-open-register">Registrieren</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="section-hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-badge">Das Paar-Quiz für ehrliche Verbindungen</span>
+      <h1 class="hero-title">Wie gut passt ihr<br />wirklich zusammen?</h1>
+      <p class="hero-subtitle">
+        Treffsicher vergleicht eure Antworten auf 100 durchdachte Fragen zu Werten, Alltag und Träumen –
+        und zeigt euch, wo ihr gleich tickt und wo eure Unterschiede liegen.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary btn-lg" id="btn-hero-register">Jetzt starten</button>
+        <a class="btn btn-ghost btn-lg" href="#section-features">Mehr erfahren</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <!-- Replace images/hero.jpg with your own image (couple portrait, landscape orientation) -->
+      <img src="images/hero.jpg" alt="Glückliches Paar" class="hero-image" onerror="this.style.display='none'" />
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section section-features" id="section-features">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Warum Treffsicher?</h2>
+        <p>Kein Algorithmus. Keine Magie. Nur echte Fragen und ehrliche Antworten.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>100 durchdachte Fragen</h3>
+          <p>Von Alltag und Gewohnheiten bis zu Zukunftsträumen und Beziehungswerten – unsere Fragen gehen wirklich in die Tiefe.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3>Transparente Auswertung</h3>
+          <p>Ihr seht genau, wo ihr übereinstimmt und wo nicht – Antwort für Antwort, Kategorie für Kategorie. Keine versteckten Berechnungen.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤝</div>
+          <h3>Echte Verbindungen</h3>
+          <p>Treffsicher zeigt euch, was wirklich zählt. Gemeinsamkeiten geben Sicherheit – und Unterschiede machen das Leben interessant.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Privat & sicher</h3>
+          <p>Eure Antworten gehören nur euch. Nichts wird weitergegeben, gespeichert oder analysiert – außer von euch selbst.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="section section-how" id="section-how-it-works">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>So funktioniert's</h2>
+        <p>In drei einfachen Schritten zu eurem persönlichen Match-Ergebnis.</p>
+      </div>
+      <div class="steps-wrap">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Registrieren</h3>
+            <p>Erstelle dein kostenloses Konto in wenigen Sekunden – nur Name, E-Mail und Passwort.</p>
+          </div>
+        </div>
+        <div class="step-divider"></div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Verbinden</h3>
+            <p>Nimm die Freundschaftsanfrage deines Partners an und legt gemeinsam los.</p>
+          </div>
+        </div>
+        <div class="step-divider"></div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Vergleichen</h3>
+            <p>Beantworte alle 100 Fragen und erhalte euer persönliches Ergebnis mit detailliertem Vergleich.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Replace images/couple1.jpg with your own image -->
+      <div class="how-image-wrap">
+        <img src="images/couple1.jpg" alt="Paar beim Gespräch" onerror="this.style.display='none'" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section section-testimonials" id="section-testimonials">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Was Paare sagen</h2>
+        <p>Echte Erfahrungen aus der Treffsicher-Community.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <!-- Replace images/couple2.jpg -->
+          <img src="images/couple2.jpg" alt="Sophie und Markus" class="testimonial-img" onerror="this.style.background='var(--primary-light)';this.alt=''" />
+          <blockquote>
+            „Wir dachten, wir kennen uns schon in- und auswendig. Treffsicher hat uns gezeigt, dass wir in manchen Bereichen noch gar nicht so tief gegraben hatten. Sehr empfehlenswert!"
+          </blockquote>
+          <cite>Sophie &amp; Markus, seit 3 Jahren zusammen</cite>
+        </div>
+        <div class="testimonial-card">
+          <!-- Replace images/couple3.jpg -->
+          <img src="images/couple3.jpg" alt="Lena und Jonas" class="testimonial-img" onerror="this.style.background='var(--primary-light)';this.alt=''" />
+          <blockquote>
+            „Das Ergebnis hat uns überrascht – besonders die Punkte, wo wir dachten, wir wären gleich, es aber gar nicht waren. Wertvolle Gespräche sind daraus entstanden."
+          </blockquote>
+          <cite>Lena &amp; Jonas, frisch verliebt</cite>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-img testimonial-img-placeholder">❤</div>
+          <blockquote>
+            „Wir haben das Quiz getrennt beantwortet und die Auswertung dann zusammen angeschaut. Ein wirklich schöner Abend ist daraus geworden. Danke, Treffsicher!"
+          </blockquote>
+          <cite>Nina &amp; Tobias, verheiratet seit 5 Jahren</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom CTA Section -->
+  <section class="section section-cta" id="section-cta">
+    <div class="section-inner cta-inner">
+      <h2>Bereit loszulegen?</h2>
+      <p>Registriere dich kostenlos und starte noch heute euer persönliches Matching.</p>
+      <button class="btn btn-primary btn-lg" id="btn-cta-register">Jetzt kostenlos registrieren</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="landing-footer">
+    <div class="footer-inner">
+      <span class="footer-logo"><span class="logo-heart">♥</span> Treffsicher</span>
+      <span class="footer-copy">© 2025 Treffsicher. Alle Rechte vorbehalten.</span>
+    </div>
+  </footer>
+
+</div>
+<!-- END #landing -->
+
+<!-- ===== MODAL OVERLAY ===== -->
+<div id="modal-overlay" class="hidden"></div>
+
+<!-- ===== LOGIN MODAL ===== -->
+<div id="modal-login" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="login-title">
+  <div class="modal-header">
+    <h2 id="login-title">Willkommen zurück</h2>
+    <p>Melde dich mit deinem Namen oder deiner E-Mail an.</p>
+    <button class="modal-close" id="btn-close-login" aria-label="Schließen">&times;</button>
+  </div>
+  <div class="modal-body">
+    <div id="login-error" class="form-error hidden"></div>
+    <div class="form-group">
+      <label for="login-identifier">Name oder E-Mail-Adresse</label>
+      <input type="text" id="login-identifier" placeholder="z.B. JohnDoe oder john@example.com" autocomplete="username" />
+    </div>
+    <div class="form-group">
+      <label for="login-password">Passwort</label>
+      <input type="password" id="login-password" placeholder="Dein Passwort" autocomplete="current-password" />
+    </div>
+    <button class="btn btn-primary btn-full" id="btn-login-submit">Anmelden</button>
+    <p class="modal-switch">
+      Noch kein Konto?
+      <button class="link-btn modal-switch-btn" id="btn-switch-to-register">Jetzt registrieren</button>
+    </p>
+  </div>
+</div>
+
+<!-- ===== REGISTER MODAL ===== -->
+<div id="modal-register" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="register-title">
+  <div class="modal-header">
+    <h2 id="register-title">Konto erstellen</h2>
+    <p>Registriere dich kostenlos und starte dein persönliches Matching.</p>
+    <button class="modal-close" id="btn-close-register" aria-label="Schließen">&times;</button>
+  </div>
+  <div class="modal-body">
+    <div id="register-error" class="form-error hidden"></div>
+    <div class="form-group">
+      <label for="register-name">Benutzername</label>
+      <input type="text" id="register-name" placeholder="Dein eindeutiger Name" autocomplete="username" />
+    </div>
+    <div class="form-group">
+      <label for="register-email">E-Mail-Adresse</label>
+      <input type="email" id="register-email" placeholder="deine@email.de" autocomplete="email" />
+    </div>
+    <div class="form-group">
+      <label for="register-password">Passwort</label>
+      <input type="password" id="register-password" placeholder="Mindestens 4 Zeichen" autocomplete="new-password" />
+    </div>
+    <button class="btn btn-primary btn-full" id="btn-register-submit">Konto erstellen</button>
+    <p class="modal-switch">
+      Bereits registriert?
+      <button class="link-btn modal-switch-btn" id="btn-switch-to-login">Jetzt anmelden</button>
+    </p>
+  </div>
+</div>
+
+<!-- ===== APP (authenticated area) ===== -->
+<div id="app" class="hidden">
+
+  <!-- App Navigation -->
+  <nav id="app-nav">
+    <div class="app-nav-inner">
+      <div class="app-nav-logo">
+        <span class="logo-heart">♥</span>
+        Treffsicher
+      </div>
+      <div class="app-nav-tabs">
+        <button class="nav-tab active" id="nav-tab-overview" data-tab="overview">Übersicht</button>
+        <button class="nav-tab" id="nav-tab-friends" data-tab="friends">Freunde</button>
+        <button class="nav-tab" id="nav-tab-quiz-area" data-tab="quiz-area">Quiz</button>
+      </div>
+      <div class="app-nav-profile">
+        <button class="profile-trigger" id="nav-profile-trigger" aria-haspopup="true" aria-expanded="false">
+          <span class="avatar" id="nav-avatar">
+            <span id="nav-avatar-initial">?</span>
+          </span>
+          <span id="nav-user-name">Nutzer</span>
+          <span class="profile-chevron">▾</span>
+        </button>
+        <div class="profile-dropdown hidden" id="nav-profile-dropdown">
+          <button class="dropdown-item" id="btn-profile-settings">Profileinstellungen</button>
+          <hr class="dropdown-divider" />
+          <button class="dropdown-item dropdown-item-danger" id="btn-logout">Abmelden</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Dashboard View -->
+  <div id="view-dashboard">
+
+    <!-- Overview Panel -->
+    <div class="tab-panel" id="panel-overview">
+      <div class="panel-inner">
+        <div class="overview-welcome">
+          <h2 id="overview-greeting">Willkommen zurück!</h2>
+          <p id="overview-subtext">Schön, dass du wieder da bist.</p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon">👥</div>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-friends">0</span>
+              <span class="stat-label">Verbindung(en)</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">📝</div>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-quiz-status">Nicht gestartet</span>
+              <span class="stat-label">Quiz-Status</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">❤️</div>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-score">–</span>
+              <span class="stat-label">Matching-Score</span>
+            </div>
+          </div>
+        </div>
+        <div class="overview-hint-card" id="overview-hint">
+          <div class="hint-icon">💡</div>
+          <div class="hint-text">
+            <strong id="hint-title">Nächster Schritt</strong>
+            <p id="hint-body">Warte auf deine erste Verbindungsanfrage, um das Quiz starten zu können.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Friends Panel -->
+    <div class="tab-panel hidden" id="panel-friends">
+      <div class="panel-inner">
+        <h2 class="panel-title">Freunde & Verbindungen</h2>
+        <p class="panel-subtitle">Verwalte deine Verbindungen und starte gemeinsame Quizze.</p>
+
+        <!-- Search -->
+        <div class="friends-search-wrap">
+          <div class="search-row">
+            <input type="text" id="friends-search-input" placeholder="Namen eingeben und Person suchen…" />
+            <button class="btn btn-primary" id="btn-friends-search">Suchen</button>
+          </div>
+          <div id="friends-search-result" class="search-result hidden"></div>
+        </div>
+
+        <!-- Pending Requests -->
+        <div id="friends-pending-wrap" class="friends-section hidden">
+          <h3 class="friends-section-title">Ausstehende Anfragen</h3>
+          <div id="friends-pending-list"></div>
+        </div>
+
+        <!-- Friends List -->
+        <div class="friends-section">
+          <h3 class="friends-section-title">Deine Verbindungen</h3>
+          <div id="friends-list">
+            <div class="empty-state" id="friends-empty-state">
+              <div class="empty-icon">👋</div>
+              <p>Du hast noch keine Verbindungen.<br />Warte auf eine Anfrage oder suche nach jemandem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quiz Area Panel -->
+    <div class="tab-panel hidden" id="panel-quiz-area">
+      <div class="panel-inner">
+        <h2 class="panel-title">Dein Match-Quiz</h2>
+        <p class="panel-subtitle">Beantworte 100 Fragen und erfahre, wie gut ihr zusammenpasst.</p>
+        <div id="quiz-area-content">
+          <!-- Filled dynamically by app.js -->
+          <div class="quiz-locked-state">
+            <div class="locked-icon">🔒</div>
+            <h3>Quiz noch nicht verfügbar</h3>
+            <p>Nimm zunächst eine Freundschaftsanfrage an, um das Quiz starten zu können.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- END #view-dashboard -->
+
+  <!-- Quiz Session View -->
+  <div id="view-quiz-session" class="hidden">
+    <div class="quiz-progress-bar-wrap">
+      <div class="quiz-progress-bar" id="quiz-progress-bar">
+        <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+      </div>
+      <span class="quiz-progress-text" id="quiz-progress-text">1 / 100</span>
+    </div>
+    <div class="quiz-session-inner">
+      <div class="quiz-category-label" id="quiz-category-label">Kategorie</div>
+      <div class="quiz-question-number" id="quiz-question-number">Frage 1</div>
+      <h2 class="quiz-question-title" id="quiz-question-title">Frage wird geladen…</h2>
+      <ul class="quiz-answers-list" id="quiz-answers-list">
+        <!-- Filled dynamically -->
+      </ul>
+      <div class="quiz-nav-buttons">
+        <button class="btn btn-ghost" id="btn-quiz-prev">← Zurück</button>
+        <button class="btn btn-ghost" id="btn-quiz-overview">Übersicht</button>
+        <button class="btn btn-primary" id="btn-quiz-next">Weiter →</button>
+        <button class="btn btn-success hidden" id="btn-quiz-finish">Quiz abschließen ✓</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quiz Overview View -->
+  <div id="view-quiz-overview" class="hidden">
+    <div class="quiz-overview-inner">
+      <div class="quiz-overview-header">
+        <h2>Fragenübersicht</h2>
+        <p id="quiz-overview-subtitle">Hier siehst du alle Fragen auf einen Blick.</p>
+      </div>
+      <div id="quiz-overview-missing-hint" class="overview-missing-hint hidden">
+        <span>⚠️</span>
+        <span id="quiz-overview-missing-text">Es fehlen noch unbeantwortete Fragen (rot markiert).</span>
+      </div>
+      <div id="quiz-overview-list" class="quiz-overview-grid">
+        <!-- Filled dynamically -->
+      </div>
+      <div class="quiz-overview-actions">
+        <button class="btn btn-ghost" id="btn-overview-back">← Zurück zum Quiz</button>
+        <button class="btn btn-primary" id="btn-overview-submit">Quiz abschließen ✓</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Results View -->
+  <div id="view-results" class="hidden">
+    <div class="results-inner">
+      <div class="results-header">
+        <div class="results-heart">♥</div>
+        <h2>Euer Matching-Ergebnis</h2>
+        <p>So gut passt ihr zusammen – basierend auf 100 Fragen.</p>
+      </div>
+      <div class="results-score-wrap">
+        <div class="results-score-circle">
+          <span class="results-score-number" id="result-score-number">0</span>
+          <span class="results-score-label">von 100</span>
+        </div>
+        <div class="results-score-info">
+          <h3 class="results-score-title" id="result-score-title">Lade…</h3>
+          <p class="results-score-text" id="result-score-text">Lade…</p>
+        </div>
+      </div>
+
+      <!-- Review Tabs -->
+      <div class="review-tabs">
+        <button class="review-tab active" id="result-tab-same" data-rtab="same">
+          Gleiche Antworten <span class="tab-count" id="count-same">0</span>
+        </button>
+        <button class="review-tab" id="result-tab-different" data-rtab="different">
+          Unterschiedliche Antworten <span class="tab-count" id="count-different">0</span>
+        </button>
+      </div>
+
+      <div id="result-review-content" class="review-content">
+        <!-- Filled dynamically -->
+      </div>
+
+      <div class="results-actions">
+        <button class="btn btn-ghost" id="btn-results-back">← Zurück zur Übersicht</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- END #app -->
+
+<!-- ===== FRIEND REQUEST POPUP ===== -->
+<div id="popup-friend-request" class="hidden">
+  <div class="popup-backdrop"></div>
+  <div class="popup-card">
+    <!-- The X button intentionally does nothing -->
+    <button class="popup-close-fake" id="btn-popup-close-fake" aria-label="Schließen">&times;</button>
+    <div class="popup-avatar-wrap">
+      <div class="popup-avatar">M</div>
+    </div>
+    <h3 class="popup-title">Neue Freundschaftsanfrage</h3>
+    <p class="popup-body">
+      <strong>Miguel_Baudet</strong> möchte dich als Freund hinzufügen und gemeinsam das Match-Quiz machen.
+    </p>
+    <button class="btn btn-accept" id="btn-accept-friend">✓ Annehmen</button>
+  </div>
+</div>
+
+<!-- ===== PROFILE SETTINGS MODAL ===== -->
+<div id="modal-profile-settings" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+  <div class="modal-header">
+    <h2 id="settings-title">Profileinstellungen</h2>
+    <p>Verwalte deine Kontodaten.</p>
+    <button class="modal-close" id="btn-close-profile-settings" aria-label="Schließen">&times;</button>
+  </div>
+  <div class="modal-body">
+    <div class="settings-section">
+      <h3 class="settings-section-title">Namen ändern</h3>
+      <div id="name-change-error" class="form-error hidden"></div>
+      <div class="form-group">
+        <label for="profile-new-name">Neuer Benutzername</label>
+        <input type="text" id="profile-new-name" placeholder="Neuer Name" />
+      </div>
+      <button class="btn btn-primary" id="btn-save-name">Name speichern</button>
+    </div>
+
+    <hr class="settings-divider" />
+
+    <div class="settings-section">
+      <h3 class="settings-section-title">Passwort ändern</h3>
+      <div class="form-group">
+        <label for="profile-new-password">Neues Passwort</label>
+        <input type="password" id="profile-new-password" placeholder="Neues Passwort" />
+      </div>
+      <button class="btn btn-primary" id="btn-save-password">Passwort speichern</button>
+    </div>
+
+    <hr class="settings-divider" />
+
+    <div class="settings-section settings-section-danger">
+      <h3 class="settings-section-title settings-danger-title">Konto löschen</h3>
+      <p class="settings-danger-note">Das Löschen deines Kontos ist unwiderruflich. Alle Daten werden dauerhaft entfernt.</p>
+      <button class="btn btn-danger" id="btn-delete-account">Konto löschen</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== DELETE CONFIRMATION MODAL ===== -->
+<div id="modal-delete-confirm" class="modal modal-sm hidden" role="dialog" aria-modal="true" aria-labelledby="delete-title">
+  <div class="modal-header">
+    <h2 id="delete-title">Konto löschen</h2>
+    <button class="modal-close" id="btn-close-delete-confirm" aria-label="Schließen">&times;</button>
+  </div>
+  <div class="modal-body">
+    <p class="delete-confirm-text">Möchtest du deinen Account unwiderruflich löschen?<br />Alle Daten werden dauerhaft entfernt.</p>
+    <div class="delete-confirm-actions">
+      <button class="btn btn-ghost" id="btn-cancel-delete">Abbrechen</button>
+      <button class="btn btn-danger" id="btn-confirm-delete">Ja, löschen</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== TOAST CONTAINER ===== -->
+<div id="toast-container" aria-live="polite" aria-atomic="false"></div>
+
+<script src="app.js"></script>
+<script src="quiz.js"></script>
 </body>
+</html>

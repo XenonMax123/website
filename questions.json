@@ -1,0 +1,1237 @@
+{
+  "categories": [
+    {
+      "name": "Persönlichkeit & Charakter",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Wie würdest du deinen Charakter am ehesten beschreiben?",
+          "answers": [
+            "Ruhig und nachdenklich",
+            "Offen und gesellig",
+            "Ehrgeizig und zielstrebig",
+            "Kreativ und verspielt",
+            "Fürsorglich und empathisch"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 2,
+          "title": "Wie gehst du mit stressigen Situationen um?",
+          "answers": [
+            "Ich ziehe mich zurück und verarbeite alles alleine",
+            "Ich rede mit jemandem darüber",
+            "Ich lenke mich mit Aktivitäten ab",
+            "Ich gehe die Dinge direkt und strukturiert an",
+            "Bewegung oder Sport helfen mir am besten"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 3,
+          "title": "Was ist dir im Umgang mit anderen wichtiger?",
+          "answers": [
+            "Ehrlichkeit, auch wenn sie wehtut",
+            "Taktgefühl und Feingefühl",
+            "Beides gleich wichtig",
+            "Kommt immer auf die Situation an"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 4,
+          "title": "Wie introvertiert oder extrovertiert würdest du dich einschätzen?",
+          "answers": [
+            "Sehr introvertiert",
+            "Eher introvertiert",
+            "Ausgeglichen",
+            "Eher extrovertiert",
+            "Sehr extrovertiert"
+          ],
+          "my_answer": 3
+        },
+        {
+          "id": 5,
+          "title": "Wie triffst du wichtige Entscheidungen?",
+          "answers": [
+            "Ich analysiere alle Fakten sorgfältig",
+            "Ich vertraue meinem Bauchgefühl",
+            "Ich hole mir Rat von anderen",
+            "Eine Kombination aus Kopf und Herz"
+          ],
+          "my_answer": 3
+        },
+        {
+          "id": 6,
+          "title": "Wie reagierst du auf konstruktive Kritik?",
+          "answers": [
+            "Ich nehme sie dankbar an und wachse daran",
+            "Ich hinterfrage sie zunächst kritisch",
+            "Sie trifft mich emotional, aber ich verarbeite sie",
+            "Ich wehre mich instinktiv dagegen"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 7,
+          "title": "Was bedeutet Loyalität für dich in erster Linie?",
+          "answers": [
+            "Immer für jemanden da sein, egal was passiert",
+            "Ehrlichkeit, auch wenn es unbequem ist",
+            "Geheimnisse bewahren und schweigen können",
+            "Die richtigen Prioritäten setzen"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 8,
+          "title": "Wie selbständig bist du in deinem Alltag?",
+          "answers": [
+            "Sehr selbständig – ich brauche kaum jemanden",
+            "Eher selbständig, aber ich schätze Unterstützung",
+            "Ich teile Entscheidungen gerne mit anderen",
+            "Ich arbeite lieber im Team oder zu zweit"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 9,
+          "title": "Bist du eher Planer oder spontaner Typ?",
+          "answers": [
+            "Ich plane alles gerne im Voraus",
+            "Ich mache grobe Pläne, bleibe aber flexibel",
+            "Ich bin komplett spontan und lasse Dinge auf mich zukommen",
+            "Es kommt stark auf die Situation an"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 10,
+          "title": "Wie gehst du mit eigenen Fehlern um?",
+          "answers": [
+            "Ich analysiere sie und lerne bewusst daraus",
+            "Ich verzeihe mir schnell und gehe weiter",
+            "Ich beschäftige mich länger damit als ich sollte",
+            "Ich versuche es direkt wieder gutzumachen"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 11,
+          "title": "Was motiviert dich im Leben am meisten?",
+          "answers": [
+            "Persönliches Wachstum und Weiterentwicklung",
+            "Erfolg und Anerkennung",
+            "Familie und tiefe Beziehungen",
+            "Freiheit und Abenteuer",
+            "Sinn und Bedeutung in dem, was ich tue"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 12,
+          "title": "Wie wichtig ist dir die Meinung anderer über dich?",
+          "answers": [
+            "Sehr wichtig – ich denke viel darüber nach",
+            "Wichtig, aber nicht ausschlaggebend für meine Entscheidungen",
+            "Kaum relevant für mein Handeln",
+            "Völlig unwichtig"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 13,
+          "title": "Wie würdest du deinen Humor beschreiben?",
+          "answers": [
+            "Trocken und sarkastisch",
+            "Selbstironisch und selbstreflektiert",
+            "Witzig, albern und direkt",
+            "Situationskomik – ich improvisiere gerne",
+            "Eher kein ausgeprägter Humor"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 14,
+          "title": "Bist du eher Optimist, Pessimist oder Realist?",
+          "answers": [
+            "Ausgeprägter Optimist",
+            "Eher optimistisch",
+            "Realist mit positiver Grundhaltung",
+            "Eher pessimistisch",
+            "Kritischer Denker"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 15,
+          "title": "Was macht dich wirklich glücklich?",
+          "answers": [
+            "Qualitätszeit mit geliebten Menschen",
+            "Eigene Erfolge und Errungenschaften",
+            "Neue Erfahrungen und Abenteuer",
+            "Ruhe und innere Balance",
+            "Anderen helfen zu können"
+          ],
+          "my_answer": 0
+        }
+      ]
+    },
+    {
+      "name": "Alltag & Gewohnheiten",
+      "questions": [
+        {
+          "id": 16,
+          "title": "Wann stehst du am liebsten auf?",
+          "answers": [
+            "Vor 6 Uhr – absoluter Frühaufsteher",
+            "Zwischen 6 und 7 Uhr",
+            "Zwischen 7 und 8 Uhr",
+            "Zwischen 8 und 9 Uhr",
+            "Lieber nach 9 Uhr"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 17,
+          "title": "Wie sieht dein idealer Morgen aus?",
+          "answers": [
+            "Ruhig mit Kaffee, Zeitung und viel Zeit",
+            "Sport und ein gesundes Frühstück",
+            "So schnell wie möglich fertig werden und los",
+            "Langsam aufwachen, etwas am Handy lesen",
+            "Gemeinsam mit jemandem frühstücken"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 18,
+          "title": "Wie ordentlich bist du in deinen eigenen vier Wänden?",
+          "answers": [
+            "Sehr ordentlich – alles hat seinen festen Platz",
+            "Ordentlich, aber nicht übertrieben",
+            "Kreatives Chaos – ich weiß, wo alles ist",
+            "Eher chaotisch",
+            "Absolut chaotisch"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 19,
+          "title": "Was machst du zuerst nach dem Aufwachen?",
+          "answers": [
+            "Direkt aufs Handy schauen",
+            "Aufstehen und etwas trinken",
+            "Duschen gehen",
+            "Noch etwas dösen und ausruhen",
+            "Sofort Frühstück zubereiten"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 20,
+          "title": "Wie oft kochst du selbst und frisch?",
+          "answers": [
+            "Täglich – ich koche am liebsten frisch",
+            "4–5 Mal pro Woche",
+            "2–3 Mal pro Woche",
+            "Selten, eher Fertiggerichte oder Bestellungen",
+            "Fast nie"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 21,
+          "title": "Welche Rolle spielt Sport in deinem Alltag?",
+          "answers": [
+            "Täglich – völlig unverzichtbar für mich",
+            "Mehrmals pro Woche – fester Bestandteil",
+            "Gelegentlich, wenn ich Zeit und Lust habe",
+            "Selten – eher sporadisch",
+            "So gut wie nie"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 22,
+          "title": "Was machst du an einem normalen Abend unter der Woche?",
+          "answers": [
+            "Ausgehen oder Freunde treffen",
+            "Serien oder Filme schauen",
+            "Lesen oder kreativen Hobbys nachgehen",
+            "Arbeiten, Lernen oder Weiterbildung",
+            "Früh ins Bett gehen"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 23,
+          "title": "Wie gehst du mit Geld um?",
+          "answers": [
+            "Ich spare konsequent und plane alles genau",
+            "Ich gebe gerne Geld für schöne Dinge aus",
+            "Ich lebe manchmal von Monat zu Monat",
+            "Ich investiere bevorzugt in Erlebnisse und Reisen",
+            "Eine gute Balance zwischen sparen und genießen"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 24,
+          "title": "Was ist deine größte persönliche Alltagsschwäche?",
+          "answers": [
+            "Prokrastination",
+            "Zu viel Handy-Zeit",
+            "Unordnung und Chaos",
+            "Zu wenig Schlaf",
+            "Schlechte Ernährungsgewohnheiten"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 25,
+          "title": "Wie lange kannst du problemlos ohne dein Handy auskommen?",
+          "answers": [
+            "Den ganzen Tag – kein Problem",
+            "Einige Stunden problemlos",
+            "Maximal 1–2 Stunden",
+            "Kaum länger als eine halbe Stunde",
+            "Ich vermeidet es, das auszuprobieren"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 26,
+          "title": "Wie oft räumst du aktiv auf oder machst Ordnung?",
+          "answers": [
+            "Täglich",
+            "Mehrmals pro Woche",
+            "Einmal pro Woche",
+            "Wenn es wirklich nötig wird",
+            "Selten bis gar nicht"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 27,
+          "title": "Was hilft dir am besten beim Einschlafen?",
+          "answers": [
+            "Lesen",
+            "Musik oder Podcast hören",
+            "Handy bis zum Einschlafen",
+            "Sportliche Erschöpfung vom Tag",
+            "Ich schlafe problemlos ohne Hilfsmittel ein"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 28,
+          "title": "Wie wichtig ist dir Pünktlichkeit?",
+          "answers": [
+            "Sehr wichtig – ich bin immer früh da",
+            "Wichtig – ich bin in der Regel pünktlich",
+            "Ich versuche es, schaffe es aber nicht immer",
+            "Mir ist es ehrlich gesagt nicht so wichtig",
+            "Pünktlichkeit ist nicht meine Stärke"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 29,
+          "title": "Was hörst du morgens am liebsten?",
+          "answers": [
+            "Podcast oder Hörbuch",
+            "Musik – laut und motivierend",
+            "Nachrichten im Radio",
+            "Nichts – ich genieße die morgendliche Stille",
+            "Kommt auf die Stimmung an"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 30,
+          "title": "Wie gehst du mit unerledigten Aufgaben auf deiner To-do-Liste um?",
+          "answers": [
+            "Ich erledige sie sofort, bevor ich entspannen kann",
+            "Ich erstelle eine Liste und arbeite sie ab",
+            "Ich schiebe sie so lange auf wie möglich",
+            "Ich versuche sie zu delegieren",
+            "Sie belasten mich, bis sie endlich erledigt sind"
+          ],
+          "my_answer": 4
+        }
+      ]
+    },
+    {
+      "name": "Freizeit & Hobbys",
+      "questions": [
+        {
+          "id": 31,
+          "title": "Was machst du am liebsten am Wochenende?",
+          "answers": [
+            "Ausflüge und kleine Abenteuer unternehmen",
+            "Zuhause entspannen und auftanken",
+            "Freunde oder Familie treffen",
+            "Kreative Projekte umsetzen",
+            "Sport und Bewegung in der Natur"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 32,
+          "title": "Wie verbringst du am liebsten einen verregneten Sonntag?",
+          "answers": [
+            "Gemütlich mit Buch und Tee",
+            "Kochen oder Backen",
+            "Serienmarathon auf dem Sofa",
+            "Museum, Café oder Kino",
+            "Sport in der Halle oder Indoor"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 33,
+          "title": "Bist du eher Heimmensch oder Abenteurer?",
+          "answers": [
+            "Absoluter Heimmensch",
+            "Eher Heimmensch",
+            "Ausgeglichen",
+            "Eher Abenteurer",
+            "Absoluter Abenteurer"
+          ],
+          "my_answer": 3
+        },
+        {
+          "id": 34,
+          "title": "Welcher Freizeittyp bist du am ehesten?",
+          "answers": [
+            "Kulturliebhaber (Museum, Theater, Konzerte)",
+            "Naturliebhaber (Wandern, Campen, draußen sein)",
+            "Sportler (aktiv, Wettkampf, Bewegung)",
+            "Homebody (Zuhause genießen, entspannen)",
+            "Social butterfly (Menschen treffen, ausgehen)"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 35,
+          "title": "Wie wichtig ist Reisen für dich im Leben?",
+          "answers": [
+            "Essenziell – ich brauche regelmäßig neue Orte",
+            "Sehr wichtig – ich reise mehrmals im Jahr",
+            "Gelegentlich schön, aber kein Muss",
+            "Weniger wichtig als andere Dinge",
+            "Nicht wirklich wichtig für mich"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 36,
+          "title": "Was hörst du am liebsten in deiner Freizeit?",
+          "answers": [
+            "Pop und Charts",
+            "Indie und Alternative",
+            "Hip-Hop und R&B",
+            "Rock und Metal",
+            "Klassik oder Jazz",
+            "Elektronische Musik",
+            "Podcast statt Musik"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 37,
+          "title": "Wie stehst du zu Sport als Freizeitbeschäftigung?",
+          "answers": [
+            "Sport ist ein wesentlicher Teil meines Lebens",
+            "Ich treibe gerne Sport, aber nicht exzessiv",
+            "Sport ist ok, aber nicht mein Haupthobby",
+            "Ich bevorzuge kreative oder ruhige Hobbys",
+            "Sport ist einfach nichts für mich"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 38,
+          "title": "Wie gerne gehst du auf Konzerte, Partys oder Veranstaltungen?",
+          "answers": [
+            "Sehr gerne – ich bin oft auf Events",
+            "Gerne, aber nicht zu häufig",
+            "Gelegentlich, wenn etwas Besonderes läuft",
+            "Eher selten",
+            "Kaum oder nie"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 39,
+          "title": "Wie verhältst du dich zu Büchern und Lesen?",
+          "answers": [
+            "Ich lese täglich und bin leidenschaftlicher Leser",
+            "Ich lese regelmäßig, aber nicht täglich",
+            "Gelegentlich, wenn mich ein Buch packt",
+            "Selten – lieber Podcasts oder Videos",
+            "Ich lese kaum bis gar nicht"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 40,
+          "title": "Was schaust du am liebsten auf Streamingplattformen?",
+          "answers": [
+            "Serien und Drama",
+            "Actionfilme und Blockbuster",
+            "Dokumentationen",
+            "Comedy und Sitcoms",
+            "Thriller und Krimi",
+            "Romantische Komödien"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 41,
+          "title": "Wie stehst du zu Spielen (Video-, Brett- oder Kartenspiele)?",
+          "answers": [
+            "Großer Fan – ich spiele regelmäßig",
+            "Gelegentlich eine Runde, gerne mit anderen",
+            "Nur bei Gesellschaft und passender Gelegenheit",
+            "Nicht wirklich mein Ding",
+            "Überhaupt nicht"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 42,
+          "title": "Wie wichtig ist dir der Kontakt zur Natur?",
+          "answers": [
+            "Sehr wichtig – ich bin oft und gerne draußen",
+            "Wichtig – ich genieße gelegentliche Ausflüge",
+            "Nett wenn möglich, aber kein Muss",
+            "Nicht besonders wichtig",
+            "Ich bin eher ein ausgeprägter Stadtmensch"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 43,
+          "title": "Was wäre dein absoluter Traumurlaub?",
+          "answers": [
+            "Metropolen und aufregende Städtereisen",
+            "Strand und Erholung am Meer",
+            "Abenteuer und Trekking in der Natur",
+            "Kulturreisen durch historische Stätten",
+            "Road Trip durch unbekannte Orte",
+            "Nichts davon – ich bleibe lieber zuhause"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 44,
+          "title": "Wie stehst du zu Haustieren?",
+          "answers": [
+            "Ich liebe Hunde über alles",
+            "Ich bevorzuge Katzen",
+            "Beide sind wunderbar",
+            "Andere Tiere (Fische, Vögel, Kleintiere)",
+            "Ich mag keine Haustiere"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 45,
+          "title": "Was ist dein liebstes Hobby, dem du regelmäßig nachgehst?",
+          "answers": [
+            "Musik machen oder Konzerte besuchen",
+            "Fotografieren oder Filmen",
+            "Kochen und Backen",
+            "Sport und Fitness",
+            "Lesen oder Schreiben",
+            "Basteln, Malen oder kreative Projekte"
+          ],
+          "my_answer": 3
+        }
+      ]
+    },
+    {
+      "name": "Liebe & Beziehung",
+      "questions": [
+        {
+          "id": 46,
+          "title": "Was ist dir in einer Beziehung am allerwichtigsten?",
+          "answers": [
+            "Tiefes Vertrauen und absolute Ehrlichkeit",
+            "Gemeinsame Erlebnisse und Abenteuer",
+            "Emotionale Unterstützung und Verständnis",
+            "Gegenseitiger Respekt und persönlicher Freiraum",
+            "Humor und gemeinsames Lachen"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 47,
+          "title": "Wie viel Zeit möchtest du als Paar gemeinsam verbringen?",
+          "answers": [
+            "Möglichst viel – ich bin am liebsten zusammen",
+            "Viel gemeinsame Zeit, aber jeder braucht auch seinen Raum",
+            "Ungefähr gleich viel gemeinsame Zeit wie Eigenzeit",
+            "Mehr Eigenzeit als Gemeinsamkeit",
+            "Jeder lebt weitgehend selbständig"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 48,
+          "title": "Wie zeigst du Zuneigung am liebsten?",
+          "answers": [
+            "Körperliche Nähe und Zärtlichkeit",
+            "Kleine Aufmerksamkeiten und Überraschungen",
+            "Gemeinsame Zeit und geteilte Erlebnisse",
+            "Worte der Wertschätzung und Zuneigung",
+            "Hilfsbereitschaft und praktische Unterstützung"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 49,
+          "title": "Was ist für dich ein absolutes No-Go in einer Beziehung?",
+          "answers": [
+            "Lügen oder Unehrlichkeit",
+            "Fehlende Wertschätzung und Gleichgültigkeit",
+            "Übertriebene Kontrolle und Eifersucht",
+            "Grundlegend unterschiedliche Lebensziele",
+            "Fehlende Kommunikation und Rückzug"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 50,
+          "title": "Wie gehst du mit Konflikten in einer Beziehung um?",
+          "answers": [
+            "Wir reden Probleme ruhig und direkt aus",
+            "Gelegentliche Auseinandersetzungen sind für mich ok",
+            "Ich brauche Zeit für mich, bevor ich reden kann",
+            "Ich vermeide Konflikte so gut ich kann",
+            "Ich stehe zu meiner Meinung, auch wenn es laut wird"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 51,
+          "title": "Was findest du an einem Partner oder einer Partnerin besonders attraktiv?",
+          "answers": [
+            "Intelligenz und Witz",
+            "Selbstsicherheit und Stärke",
+            "Ehrlichkeit und Authentizität",
+            "Humor und Leichtigkeit",
+            "Empathie und Mitgefühl",
+            "Ehrgeiz und Zielstrebigkeit"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 52,
+          "title": "Wie wichtig ist körperliche Nähe für dich in einer Beziehung?",
+          "answers": [
+            "Sehr wichtig – ein essentieller Ausdruck von Liebe",
+            "Wichtig, aber nicht der einzige Liebesausdruck",
+            "Schön, aber nicht zwingend notwendig",
+            "Emotionale Nähe ist mir deutlich wichtiger"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 53,
+          "title": "Was macht für dich das perfekte Date aus?",
+          "answers": [
+            "Restaurant-Dinner bei Kerzenlicht",
+            "Gemeinsamer Ausflug in die Natur",
+            "Zusammen kochen und zuhause sein",
+            "Kulturelles Erlebnis (Konzert, Museum, Theater)",
+            "Spontan und ungeplant – Hauptsache wir sind zusammen"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 54,
+          "title": "Bist du in Beziehungen eher romantisch oder pragmatisch?",
+          "answers": [
+            "Sehr romantisch",
+            "Eher romantisch",
+            "Ausgeglichen – beides hat seinen Platz",
+            "Eher pragmatisch",
+            "Sehr pragmatisch"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 55,
+          "title": "Wie wichtig sind dir gemeinsame Interessen und Hobbys mit deinem Partner?",
+          "answers": [
+            "Sehr wichtig – gleiche Hobbys verbinden",
+            "Ein paar gemeinsame Dinge reichen mir",
+            "Wir müssen nicht alles teilen",
+            "Unterschiede machen es interessanter",
+            "Überhaupt nicht wichtig für mich"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 56,
+          "title": "Wie gehst du mit Eifersucht um?",
+          "answers": [
+            "Ich spreche sie offen und direkt an",
+            "Ich arbeite innerlich daran und reflektiere",
+            "Ich versuche sie zu verdrängen",
+            "Sie treibt mich manchmal zu übertriebenen Reaktionen",
+            "Ich bin selten oder nie eifersüchtig"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 57,
+          "title": "Was denkst du über offene Beziehungen?",
+          "answers": [
+            "Definitiv nichts für mich",
+            "Ich kann es verstehen, aber es ist nicht meins",
+            "Interessante Idee, aber ich würde es nicht umsetzen",
+            "Unter bestimmten Umständen vorstellbar",
+            "Kein Problem damit"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 58,
+          "title": "Was bedeutet Vertrauen für dich in einer Beziehung?",
+          "answers": [
+            "Die absolute und unverzichtbare Grundlage",
+            "Etwas, das man aktiv aufbauen und verdienen muss",
+            "Blind zu vertrauen ist riskant – gesunde Skepsis ist ok",
+            "Eine Mischung aus Vertrauen und realistischer Einschätzung"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 59,
+          "title": "Wie wichtig ist dir ein gemeinsames soziales Netzwerk als Paar?",
+          "answers": [
+            "Sehr wichtig – ich möchte unsere Welten verbinden",
+            "Schön wenn es sich ergibt, aber kein Muss",
+            "Jeder behält lieber seinen eigenen Freundeskreis",
+            "Eher unwichtig für mich"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 60,
+          "title": "Was ist für dich das Schönste an einer langjährigen Beziehung?",
+          "answers": [
+            "Das tiefe gegenseitige Kennen und Verstehen",
+            "Die gemeinsame Geschichte und geteilten Erinnerungen",
+            "Bedingungslose Unterstützung durch dick und dünn",
+            "Die Geborgenheit und innere Sicherheit",
+            "Zusammen zu wachsen und sich weiterzuentwickeln"
+          ],
+          "my_answer": 4
+        }
+      ]
+    },
+    {
+      "name": "Ernährung & Lifestyle",
+      "questions": [
+        {
+          "id": 61,
+          "title": "Wie würdest du deine Ernährung insgesamt beschreiben?",
+          "answers": [
+            "Sehr gesund und bewusst",
+            "Eher gesund mit gelegentlichen Ausnahmen",
+            "Ausgewogen, ohne Extreme",
+            "Ich esse, was mir schmeckt",
+            "Eher ungesund und unregelmäßig"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 62,
+          "title": "Wie oft gehst du essen oder bestellst dir etwas?",
+          "answers": [
+            "Fast täglich",
+            "Mehrmals pro Woche",
+            "Einmal pro Woche",
+            "Selten, nur bei besonderen Anlässen",
+            "Fast nie"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 63,
+          "title": "Was ist deine liebste Küche?",
+          "answers": [
+            "Italienisch (Pizza, Pasta, Risotto)",
+            "Asiatisch (Sushi, Ramen, Thai, Dim Sum)",
+            "Griechisch oder Mediterran",
+            "Burger und amerikanisches Food",
+            "Deutsche oder österreichische Küche",
+            "Ich bin sehr experimentierfreudig"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 64,
+          "title": "Wie wichtig ist dir gesunde Ernährung im Alltag?",
+          "answers": [
+            "Sehr wichtig – ich achte streng darauf",
+            "Wichtig, aber ohne Zwang oder Verzicht",
+            "Gut wenn es klappt, aber kein absolutes Muss",
+            "Weniger wichtig für mich",
+            "Kaum ein Thema"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 65,
+          "title": "Wie stehst du zu Fast Food?",
+          "answers": [
+            "Ich esse es nie",
+            "Sehr selten, nur bei Gelegenheit",
+            "Gelegentlich und ohne schlechtes Gewissen",
+            "Öfter als ich zugeben würde",
+            "Regelmäßig und ohne Reue"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 66,
+          "title": "Wie ist dein Verhältnis zu Alkohol?",
+          "answers": [
+            "Ich trinke gar keinen Alkohol",
+            "Selten – nur bei wirklich besonderen Anlässen",
+            "Gelegentlich, soziales Trinken",
+            "Regelmäßig ein Glas oder zwei am Abend",
+            "Keine Ahnung"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 67,
+          "title": "Was trinkst du morgens am liebsten?",
+          "answers": [
+            "Schwarzen Kaffee",
+            "Kaffee mit Milch oder Cappuccino",
+            "Tee",
+            "Wasser oder Saft",
+            "Smoothie oder Shake",
+            "Gar nichts – ich frühstücke nicht"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 68,
+          "title": "Wie wichtig ist dir ausreichend Schlaf?",
+          "answers": [
+            "Sehr wichtig – 8 Stunden sind für mich ein Muss",
+            "Wichtig – ich schlafe gerne gut und lang",
+            "Ich komme auch gut mit weniger aus",
+            "Schlaf ist eher sekundär für mich"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 69,
+          "title": "Wie stehst du zu Süßigkeiten und Schokolade?",
+          "answers": [
+            "Absolut unverzichtbar – täglich ein Muss",
+            "Ich mag es gerne, aber in Maßen",
+            "Gelegentlich – kein großes Thema",
+            "Ich esse kaum Süßes",
+            "Ich bevorzuge lieber Herzhaftes"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 70,
+          "title": "Würdest du dich als leidenschaftlichen Koch bezeichnen?",
+          "answers": [
+            "Ja, ich koche sehr gerne und probiere gerne Neues aus",
+            "Ich koche gern, aber eher bekannte Standardgerichte",
+            "Kochen ist ok, aber kein echtes Hobby für mich",
+            "Ich koche nur, wenn es sein muss",
+            "Am liebsten lass ich andere für mich kochen"
+          ],
+          "my_answer": 1
+        }
+      ]
+    },
+    {
+      "name": "Zukunft & Werte",
+      "questions": [
+        {
+          "id": 71,
+          "title": "Wo siehst du dich in 10 Jahren?",
+          "answers": [
+            "In einer stabilen, glücklichen Partnerschaft",
+            "Mit eigener Familie und Kindern",
+            "Beruflich erfüllt und erfolgreich",
+            "Reisend und neue Abenteuer erlebend",
+            "Im Einklang mit mir selbst und rundum glücklich"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 72,
+          "title": "Wie stehst du zum Thema Kinder?",
+          "answers": [
+            "Ich möchte unbedingt Kinder",
+            "Ich kann mir Kinder gut vorstellen",
+            "Ich bin noch unentschlossen",
+            "Ich möchte keine Kinder",
+            "Ich habe bereits Kinder"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 73,
+          "title": "Wie wichtig ist dir Karriere und beruflicher Erfolg?",
+          "answers": [
+            "Sehr wichtig – absolute Hauptpriorität",
+            "Wichtig, aber nicht auf Kosten des Privatlebens",
+            "Ausgeglichen mit anderen Lebensbereichen",
+            "Weniger wichtig als persönliches Wohlbefinden",
+            "Kaum ein relevantes Thema"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 74,
+          "title": "Was ist dir im Leben am allerwichtigsten?",
+          "answers": [
+            "Familie und enge, tiefe Beziehungen",
+            "Gesundheit und körperliches Wohlbefinden",
+            "Glück und innere Zufriedenheit",
+            "Freiheit und Selbstbestimmung",
+            "Sinn und Beitrag zur Gesellschaft"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 75,
+          "title": "Wie stehst du zu gemeinsamen Finanzen in einer Beziehung?",
+          "answers": [
+            "Ein gemeinsames Konto für alles",
+            "Getrennte Konten plus ein gemeinsames für Haushalt",
+            "Vollständig getrennte Finanzen",
+            "Kommt ganz auf die Situation und den Partner an"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 76,
+          "title": "Wo möchtest du langfristig leben?",
+          "answers": [
+            "In einer lebendigen Stadt mit Nachtleben und Infrastruktur",
+            "In einem ruhigen Vorort – das Beste aus beiden Welten",
+            "Auf dem Land oder in der Natur",
+            "In verschiedenen Städten oder sogar Ländern",
+            "Das ist mir egal, solange ich glücklich bin"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 77,
+          "title": "Was ist dein größter persönlicher Lebenstraum?",
+          "answers": [
+            "Eine glückliche, harmonische Familie aufbauen",
+            "Die ganze Welt bereisen",
+            "Ein eigenes Unternehmen gründen",
+            "Etwas Bleibendes bewirken und die Welt verbessern",
+            "In allem, was ich tue, wirklich glücklich und erfüllt zu sein"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 78,
+          "title": "Welche Rolle spielt Religion oder Spiritualität in deinem Leben?",
+          "answers": [
+            "Zentrale Bedeutung – ich bin tief gläubig",
+            "Wichtige Orientierung und Halt im Alltag",
+            "Gelegentliche Reflexion, aber nicht prägend",
+            "Kaum ein Thema für mich",
+            "Keine Bedeutung"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 79,
+          "title": "Was würdest du an deinem bisherigen Leben anders machen?",
+          "answers": [
+            "Ich würde früher mutiger sein und mehr riskieren",
+            "Mehr in Beziehungen und Freundschaften investieren",
+            "Bildung und Karriere anders angehen",
+            "Mehr reisen und Erfahrungen sammeln",
+            "Nichts – alles hat mich zu dem gemacht, was ich bin"
+          ],
+          "my_answer": 4
+        },
+        {
+          "id": 80,
+          "title": "Wie stehst du dazu, gemeinsam mit dem Partner ein Haustier zu haben?",
+          "answers": [
+            "Unbedingt – ich liebe Haustiere",
+            "Gerne, wenn beide es wirklich möchten",
+            "Bin neutral dazu",
+            "Lieber nicht",
+            "Auf keinen Fall"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 81,
+          "title": "Wie stehst du zu traditionellen Rollen in einer Beziehung?",
+          "answers": [
+            "Ich schätze und lebe traditionelle Rollenbilder",
+            "Ich bin offen für beide Ansätze",
+            "Ich bevorzuge klar gleichberechtigte Rollen",
+            "Ich lehne traditionelle Rollenbilder ab"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 82,
+          "title": "Was ist dir bei der Wahl deines Wohnorts am wichtigsten?",
+          "answers": [
+            "Nähe zu Freunden und Familie",
+            "Gute Infrastruktur und Anbindung",
+            "Naturnahe und ruhige Lage",
+            "Lebendiges kulturelles Angebot",
+            "Niedrige Lebenshaltungskosten",
+            "Gute Karrieremöglichkeiten"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 83,
+          "title": "Welche Bedeutung hat Freundschaft in deinem Leben?",
+          "answers": [
+            "Freunde sind wie Familie – absolut essenziell",
+            "Sehr wichtig – ich pflege enge Freundschaften aktiv",
+            "Wichtig, aber ich habe wenige wirklich tiefe Freundschaften",
+            "Eher weniger im Fokus als andere Dinge"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 84,
+          "title": "Wie definierst du persönlichen Erfolg?",
+          "answers": [
+            "Materieller Wohlstand und finanzielle Sicherheit",
+            "Innere Zufriedenheit und Glück",
+            "Soziale Anerkennung und Status",
+            "Eine erfüllte Familie und ein reiches Privatleben",
+            "Einen Beitrag zu etwas Größerem leisten"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 85,
+          "title": "Was würdest du tun, wenn Geld absolut keine Rolle mehr spielen würde?",
+          "answers": [
+            "Die ganze Welt bereisen und entdecken",
+            "Mehr Zeit mit Familie und Freunden verbringen",
+            "Eigene Projekte oder Lebensträume verwirklichen",
+            "Anderen Menschen helfen und Gutes tun",
+            "Das Leben einfach in vollen Zügen genießen"
+          ],
+          "my_answer": 4
+        }
+      ]
+    },
+    {
+      "name": "Humor & Unterhaltung",
+      "questions": [
+        {
+          "id": 86,
+          "title": "Was ist dein liebstes Filmgenre?",
+          "answers": [
+            "Drama und Arthouse",
+            "Action und Thriller",
+            "Komödie",
+            "Science-Fiction oder Fantasy",
+            "Horror",
+            "Romantik und Liebesfilm",
+            "Dokumentation"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 87,
+          "title": "Bist du ein Netflix-Binge-Watcher?",
+          "answers": [
+            "Ja, ich schaue gerne mehrere Folgen am Stück",
+            "Manchmal, wenn mich eine Serie wirklich packt",
+            "Ich schaue lieber eine Folge pro Abend",
+            "Ich bevorzuge Filme gegenüber Serien",
+            "Ich nutze Streamingdienste kaum"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 88,
+          "title": "Was beschreibt deinen Sinn für Humor am besten?",
+          "answers": [
+            "Trocken, Ironie und feiner Sarkasmus",
+            "Slapstick und direkte Komik",
+            "Absurder und schwarzer Humor",
+            "Intellektuell und wortspielorientiert",
+            "Selbstironisch und nahbar",
+            "Situationskomik und spontane Witze"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 89,
+          "title": "Was magst du lieber?",
+          "answers": [
+            "Lustige Komödien und Serien",
+            "Emotionale Dramen",
+            "Spannende Thriller",
+            "Epische Fantasy- oder Sci-Fi-Serien",
+            "Alles gleich gerne"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 90,
+          "title": "Welche App nutzt du am häufigsten in deiner Freizeit?",
+          "answers": [
+            "Instagram oder TikTok",
+            "WhatsApp oder andere Messenger",
+            "Spotify oder Podcast-Apps",
+            "YouTube",
+            "News-Apps",
+            "Produktivitäts-Apps"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 91,
+          "title": "Wie reagierst du auf schlechte oder peinliche Witze?",
+          "answers": [
+            "Ich lache trotzdem, weil ich nett bin",
+            "Ich zeige deutlich, dass der Witz nicht lustig war",
+            "Ich mache sofort einen noch schlechteren Gegenwitz",
+            "Ich ignoriere es einfach",
+            "Es hängt stark von der Person und Situation ab"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 92,
+          "title": "Was bevorzugst du beim Konsum von Videoinhalten?",
+          "answers": [
+            "Kurze Videos und Reels (TikTok, Shorts)",
+            "Mittellange Videos (YouTube, 10–20 min)",
+            "Lange Formate (Dokus, Serien, Filme)",
+            "Ich schaue kaum Videos",
+            "Keine Ahnung"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 93,
+          "title": "Schaust du Serien und Filme lieber alleine oder in Gesellschaft?",
+          "answers": [
+            "Am liebsten alleine",
+            "Lieber zusammen mit jemandem",
+            "Beides hat definitiv seinen Reiz",
+            "Kommt ganz auf den Inhalt an"
+          ],
+          "my_answer": 3
+        },
+        {
+          "id": 94,
+          "title": "Wie stehst du zu Reality-TV und Casting-Shows?",
+          "answers": [
+            "Ich schaue es gerne und ohne schlechtes Gewissen",
+            "Gelegentliches Guilty Pleasure",
+            "Gar nichts für mich",
+            "Ich finde es problematisch und meide es"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 95,
+          "title": "Was machst du, wenn du dich wirklich langweilst?",
+          "answers": [
+            "Durch Social Media scrollen",
+            "Mit Freunden schreiben oder sie anrufen",
+            "Ein Spiel spielen",
+            "Einfach schlafen oder dösen",
+            "Etwas Produktives oder Kreatives tun",
+            "Die Langeweile einfach aushalten"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 96,
+          "title": "Wie wichtig ist dir Smalltalk?",
+          "answers": [
+            "Ich liebe es, mit Fremden zu plaudern",
+            "Es ist ok, aber ich bevorzuge tiefere Gespräche",
+            "Ich mache es, wenn es nötig oder höflich ist",
+            "Ich finde Smalltalk eher anstrengend",
+            "Ich vermeide Smalltalk wenn möglich"
+          ],
+          "my_answer": 1
+        },
+        {
+          "id": 97,
+          "title": "Was würdest du als deine lustigste Eigenschaft bezeichnen?",
+          "answers": [
+            "Mein absolut trockener Humor",
+            "Meine Fähigkeit, in jeder Situation einen Witz zu finden",
+            "Meine Fähigkeit, mich selbst nicht zu ernst zu nehmen",
+            "Meine überraschenden Reaktionen auf alltägliche Dinge",
+            "Mein legendär schlechtes Timing für Witze"
+          ],
+          "my_answer": 2
+        },
+        {
+          "id": 98,
+          "title": "Wie reagierst du auf peinliche Momente?",
+          "answers": [
+            "Ich lache darüber und mache das Beste daraus",
+            "Ich werde rot und möchte im Boden versinken",
+            "Ich ignoriere es einfach und gehe weiter",
+            "Ich erkläre mich und versuche die Situation aufzulösen",
+            "Ich mache sofort einen Witz darüber"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 99,
+          "title": "Was ist dir bei Social Media am wichtigsten?",
+          "answers": [
+            "Mit Freunden und Familie in Kontakt bleiben",
+            "Inspiration und neue Inhalte entdecken",
+            "Mein Leben und meine Erlebnisse teilen",
+            "Mich beruflich vernetzen",
+            "Ich nutze Social Media kaum bis gar nicht"
+          ],
+          "my_answer": 0
+        },
+        {
+          "id": 100,
+          "title": "Was wäre deine Superkraft, wenn du eine wählen könntest?",
+          "answers": [
+            "Zeitreisen",
+            "Gedanken lesen",
+            "Fliegen",
+            "Unsichtbar sein",
+            "Alle Sprachen der Welt sprechen",
+            "Unendliche Intelligenz"
+          ],
+          "my_answer": 0
+        }
+      ]
+    }
+  ]
+}
